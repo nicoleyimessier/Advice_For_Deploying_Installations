@@ -12,16 +12,19 @@ Learning how to rebuild your project before getting onsite will ensure you know 
 
 ### Get to site as early as possible 
 
-Things are always different then expected onsite -- get there early, so you can learn what constraints you are working within early. 
+Things are always different then expected onsite -- get there early, so you can learn what constraints you are working within. 
 
 ### Version Control / Backup
-Use Git to version control your software and all its dependencies. For example, if you’re working in openFrameworks, make all addons and openframeworks a submodule, so you always not what commits you are deploying with. This probably needs another write up...
+Use Git to version control your software and all its dependencies. For example, if you’re working in openFrameworks, make all addons and openframeworks a submodule, so you always know what commits you are deploying with. This probably needs another write up...
 
 ## Make sure the installation stays up
 
 ### Watchdogs
 
-Have a background script that launches your application automatically when it closes. 
+Have a background script that launches your application automatically when it closes or crashes. 
+
+### Heartbeats
+
 
 ### Restarts
 
@@ -29,7 +32,7 @@ Have a nightly shutdown and restart process to ensure software gets a fresh rebo
 
 ### One executable 
 
-The less pieces to the system, the less dependencies that could cause issues/bugs. Don’t string different pieces of software/services together -- try to use APIs and get your architecture down to one executable. 
+The less pieces to the system, the less dependencies that could cause issues/bugs. Don’t string different pieces of softwaretogether -- try to use APIs for services and design your architecture so that it's one executable. 
 
 ### If possible, never use wifi. 
 
@@ -37,7 +40,7 @@ LAN is your friend.
 
 ### Bring back up of everything
 
-Hardware seems to always fail onsite -- bring a backup of everything for this situation. Also, think about new hardware you may need onsite. 
+Hardware seems to always fail onsite -- bring a backup of everything for this situation. Also, think about new or helpful hardware you may need onsite. For example, if you are putting up projections, a crosshair laser is helpful for aligning mesh grid points. 
 
 ## Clean up 
 
@@ -49,7 +52,7 @@ Hardware seems to always fail onsite -- bring a backup of everything for this si
 
 ### Disable all automatic operating system updates
 
-It’s likely you’ve tested your build using a specific operating system -- operating system updates are notorious for breaking things. Disable the update, so you don’t have to deal with this. 
+It’s likely you’ve tested your build using a specific operating system -- operating system updates are notorious for breaking software. Disable **ALL** updates, so you don’t have to deal with this. 
 
 **This document is a WIP. Please feel free to add suggestions and edit. 
 
