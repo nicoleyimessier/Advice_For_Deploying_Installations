@@ -1,6 +1,6 @@
 # Advice for Deploying Installations
 
-## Checking your builds
+## Check your builds
 
 ### Test your software beforehand both with users and automated testing
 
@@ -17,7 +17,7 @@ Things are always different then expected onsite -- get there early, so you can 
 ### Version Control / Backup
 Use Git to version control your software and all its dependencies. For example, if you’re working in openFrameworks, make all addons and openframeworks a submodule, so you always know what commits you are deploying with. This probably needs another write up...
 
-## Make sure the installation stays up
+## Ensure the installation stays up
 
 ### Watchdogs
 
